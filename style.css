@@ -1,0 +1,29 @@
+QPushButton {
+    border: none;
+    background: transparent;
+    padding: 10px;
+
+}
+
+QTabBar::tab {
+    background: rgba(26, 24, 24, 0.075);
+
+    border: none;
+    padding:5px;
+    font-size:12px;
+    color:rgb(0, 0, 0);
+    border-right:1px solid white;
+
+}
+QTabBar::tab first-child{
+    border-left:1px solid rgba(207, 204, 204, 0.726);
+}
+QTabBar::tab:selected {
+    background:rgba(148, 148, 148, 0.856);
+    color:#333;
+}
+#Toolbar{
+    background: rgb(62, 110, 138);
+    border:none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.897);
+}
